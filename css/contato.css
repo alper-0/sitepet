@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contato {
+  width: 1160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* bloco textos / endereço */
+.contato-dados {
+  background: #f4f5fb;
+  border-radius: 5px 0 0 5px;
+  padding: 60px;
+}
+
+.contato-formulario {
+  background: #ffffff;
+  border-radius: 0 5px 5px 0;
+  padding: 60px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.contato-dados h2 {
+  margin-bottom: 40px;
+  color: #301c41;
+}
+
+.contato-endereco {
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+  color: #413b6b;
+}
+
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 8px;
+  padding-left: 28px;
+  color: #413b6b;
+}
+
+.contato-meios a:hover {
+  color: #5c65c0;
+}
+
+.email {
+  background: url(../../img/icones/email.svg) no-repeat;
+  padding-left: 28px;
+  margin-top: 32px;
+}
+
+.fone {
+  background: url(../../img/icones/telefone.svg) no-repeat;
+  padding-left: 28px;
+  margin-top: 32px;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 32px;
+  padding-left: 28px;
+  margin-top: 40px;
+}

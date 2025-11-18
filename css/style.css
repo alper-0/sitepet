@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*CSS Documento*/
+
+@import "global.css";
+@import "header.css";
+@import "cores.css";
+@import "introducao.css";
+@import "tipografia.css";
+@import "vantagens.css";
+@import "quemsomos.css";
+@import "produtos.css";
+@import "contato.css"; 
+@import "forma.css";
+@import "footer.css";
+
+/*media query introducao---------------------------------------------------------------------*/
+
+    @media (max-width:800px){
+             
+    }
+
+    @media (max-width:420px){
+        .header-menu a {
+            background-color: #753100;
+            padding: 12px 16px;
+            border-radius: 5px;
+        }
+        .header-menu a:hover{
+            justify-content: center;
+        }
+        .header-menu{
+            justify-content: center;
+        }
+        nav{
+            margin-top: 20px;
+        }
+    }
+    
+    /*media query Introdução--------------------------------------------------------*/
+
+    /* @media (max-width:690px){
+        .introducao{
+            height: 300px;
+        }
+        .introducao h1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 50px;
+            
+        }
+        }
+
+        @media (max-width:420px){
+          .introducao-texto h1{
+            font-size: 40px;
+          }
+    } */

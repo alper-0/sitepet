@@ -1,0 +1,53 @@
+/* --Vantagens--------------------------------------------------------------------------------- */
+#vantagens {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.vantagens_options {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+  
+  .vp1,
+  .vp2,
+  .vp3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    padding: 18px 16px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+    border: 1px solid #e5e7eb;
+    transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+  }
+  
+  .vp1 img,
+  .vp2 img,
+  .vp3 img {
+    margin-bottom: 8px;
+  }
+  
+  .vp1 p,
+  .vp2 p,
+  .vp3 p {
+    margin: 0;
+    font-weight: 600;
+    color: #413b6b;
+  }
+  
+  .vp1:hover,
+  .vp2:hover,
+  .vp3:hover {
+    transform: translateY(-3px);
+    border-color: #bdc8ff;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+  }
+  

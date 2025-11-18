@@ -1,0 +1,11 @@
+/*Tipografia----------------------------------------------------------------------*/
+.p400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.c400 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

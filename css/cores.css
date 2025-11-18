@@ -1,0 +1,47 @@
+/* Cores ------------------------------------------------------------------------ */
+.cor1 {
+    color: #301c41;
+  }
+  .cor2 {
+    color: #413b6b;
+  }
+  .cor3 {
+    color: #5c65c0;
+  }
+  .cor4 {
+    color: #6f95ff;
+  }
+  .cor5 {
+    color: #bdc8ff;
+  }
+  
+  /* Background helpers using the same palette */
+  .bg-cor1 {
+    background-color: #301c41;
+  }
+  .bg-cor2 {
+    background-color: #413b6b;
+  }
+  .bg-cor3 {
+    background-color: #5c65c0;
+  }
+  .bg-cor4 {
+    background-color: #6f95ff;
+  }
+  .bg-cor5 {
+    background-color: #bdc8ff;
+  }
+  
+  /* Generic UI colors */
+  .bg-page {
+    background-color: #f4f5fb;
+  }
+  
+  .bg-card {
+    background-color: #ffffff;
+  }
+  
+  .border-accent {
+    border-color: #bdc8ff;
+  }
+  

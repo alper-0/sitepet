@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.form label {
+  display: block;
+  font: 500 14px "Poppins", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS",
+    Verdana, "sans-serif";
+  margin-bottom: 4px;
+  color: #301c41;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 14px "Poppins", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS",
+    Verdana, "sans-serif";
+  background: #f3f4f6;
+  border: 1px solid #bdc8ff;
+  padding: 12px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #111827;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #5c65c0;
+  background: #ffffff;
+  box-shadow: 0 0 0 1px #d1d5ff;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.botao {
+  font: 500 14px "Poppins", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS",
+    Verdana, "sans-serif";
+  background: #5c65c0;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 999px;
+  color: #ffffff;
+  margin-top: 12px;
+  transition: background-color 0.16s ease, transform 0.12s ease,
+    box-shadow 0.16s ease;
+}
+
+.botao:hover {
+  background: #413b6b;
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+}
+
+/* Para não deixar aumentar a caixa do textarea */
+textarea {
+  resize: none;
+}

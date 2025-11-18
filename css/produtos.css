@@ -1,0 +1,58 @@
+/* --Produtos--------------------------------------------------------------------------------- */
+
+#produtos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.produtos_options {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.produtos-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 120px;
+  padding: 0.75rem 0.5rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.produtos-img img {
+  max-width: 64px;
+  margin-bottom: 0.4rem;
+}
+
+.produtos-img p {
+  margin: 0;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: #413b6b;
+}
+
+.produtos-img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.14);
+}
+
+.sub-produtos {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.4rem;
+  color: #301c41;
+  gap: 0.4rem;
+}

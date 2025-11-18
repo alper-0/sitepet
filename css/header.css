@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+  /* Para o menu ficar ao lado do logo: */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* opcional: deixa o header com fundo leve se quiser */
+.header-bg {
+  background: linear-gradient(135deg, #5c65c0, #301c41);
+  color: #f9fafb;
+}
+
+/* menu */
+.header-menu {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-menu a {
+  position: relative;
+  padding-bottom: 4px;
+  font-weight: 400;
+  color: #f9fafb;
+}
+
+.header-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 999px;
+  background-color: #bdc8ff;
+  transition: width 0.18s ease-in-out;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+/* mantém a underline antiga como fallback */
+.header-menu a:hover {
+  text-decoration: none;
+}
